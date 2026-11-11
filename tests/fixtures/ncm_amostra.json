@@ -1,0 +1,186 @@
+{
+ "Data_Ultima_Atualizacao_NCM": "Vigente em 10/11/2026",
+ "Ato": "Resolução Gecex nº 926/2026",
+ "Nomenclaturas": [
+  {
+   "Codigo": "09",
+   "Descricao": "Café, chá, mate e especiarias.",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "09.01",
+   "Descricao": "Café, mesmo torrado ou descafeinado; cascas e películas de café; sucedâneos do café que contenham café em qualquer proporção.",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.1",
+   "Descricao": "- Café não torrado:",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.11",
+   "Descricao": "-- Não descafeinado",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.11.10",
+   "Descricao": "Em grão",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.11.90",
+   "Descricao": "Outros",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.12.00",
+   "Descricao": "-- Descafeinado",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.2",
+   "Descricao": "- Café torrado:",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.21.00",
+   "Descricao": "-- Não descafeinado",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.22.00",
+   "Descricao": "-- Descafeinado",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "0901.90.00",
+   "Descricao": "- Outros",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "22",
+   "Descricao": "Bebidas, líquidos alcoólicos e vinagres.",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "22.01",
+   "Descricao": "Águas, incluindo as águas minerais, naturais ou artificiais, e as águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas; gelo e neve.",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "2201.10.00",
+   "Descricao": "- Águas minerais e águas gaseificadas",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "2201.90.00",
+   "Descricao": "- Outros",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "22.02",
+   "Descricao": "Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos (sumos) de fruta ou de produtos hortícolas da posição 20.09.",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "2202.10.00",
+   "Descricao": "- Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "2202.9",
+   "Descricao": "- Outras:",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "2202.91.00",
+   "Descricao": "-- Cerveja sem álcool",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  },
+  {
+   "Codigo": "2202.99.00",
+   "Descricao": "-- Outras",
+   "Data_Inicio": "01/04/2022",
+   "Data_Fim": "31/12/9999",
+   "Tipo_Ato_Ini": "Res Gecex",
+   "Numero_Ato_Ini": "272",
+   "Ano_Ato_Ini": "2021"
+  }
+ ]
+}

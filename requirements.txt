@@ -1,0 +1,11 @@
+# Versões testadas (nov/2026)
+fastembed==0.9.1
+psycopg[binary]==3.3.8
+pgvector==0.5.1
+langchain-core==1.7.7
+langchain-anthropic==1.7.10
+langchain-text-splitters==1.1.3
+beautifulsoup4==4.15.0
+lxml==6.1.3
+fastapi==0.162.2
+uvicorn==0.54.0

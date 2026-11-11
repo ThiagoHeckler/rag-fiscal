@@ -1,0 +1,40 @@
+{"categoria": "RICMS", "pergunta": "Qual a alíquota interna geral do ICMS em Santa Catarina?", "esperado": ["RICMS-SC, art. 26"]}
+{"categoria": "RICMS", "pergunta": "Qual a alíquota do ICMS em vendas interestaduais para São Paulo ou Paraná?", "esperado": ["RICMS-SC, art. 27"]}
+{"categoria": "RICMS", "pergunta": "Em quais operações o ICMS não incide, como livros e jornais?", "esperado": ["RICMS-SC, art. 6º"]}
+{"categoria": "RICMS", "pergunta": "Até que dia devo recolher o ICMS depois que termina o período de apuração?", "esperado": ["RICMS-SC, art. 60"]}
+{"categoria": "RICMS", "pergunta": "A venda de leite fresco ao consumidor final é isenta de ICMS?", "esperado": ["RICMS-SC, Anexo 2, art. 1º"]}
+{"categoria": "RICMS", "pergunta": "Mandar mercadoria para conserto tem suspensão do ICMS? Qual o prazo para voltar?", "esperado": ["RICMS-SC, Anexo 2, art. 27"]}
+{"categoria": "RICMS", "pergunta": "Como corrigir um erro na nota fiscal eletrônica depois que ela foi autorizada?", "esperado": ["RICMS-SC, Anexo 11, art. 16"]}
+{"categoria": "RICMS", "pergunta": "O que fazer quando não consigo transmitir a NF-e por problema técnico na SEFAZ?", "esperado": ["RICMS-SC, Anexo 11, art. 11"]}
+{"categoria": "RICMS", "pergunta": "O que é o DANFE e para que serve?", "esperado": ["RICMS-SC, Anexo 11, art. 9º"]}
+{"categoria": "RICMS", "pergunta": "Como cancelar uma NF-e já autorizada?", "esperado": ["RICMS-SC, Anexo 11, art. 13", "RICMS-SC, Anexo 11, art. 14"]}
+{"categoria": "RICMS", "pergunta": "Quem pode ser autorizado a emitir nota fiscal eletrônica em Santa Catarina?", "esperado": ["RICMS-SC, Anexo 11, art. 2º"]}
+{"categoria": "RICMS", "pergunta": "Na industrialização por encomenda, como fica a nota de remessa da matéria-prima para o industrializador?", "esperado": ["RICMS-SC, Anexo 6, art. 71"]}
+{"categoria": "RICMS", "pergunta": "O que são créditos acumulados de ICMS?", "esperado": ["RICMS-SC, art. 40"]}
+{"categoria": "RICMS", "pergunta": "Em que momento ocorre o fato gerador do ICMS?", "esperado": ["RICMS-SC, art. 3º", "RICMS-SC, art. 1º"]}
+{"categoria": "RICMS", "pergunta": "Armazém geral é responsável pelo pagamento do ICMS das mercadorias depositadas?", "esperado": ["RICMS-SC, art. 8º"]}
+{"categoria": "RICMS", "pergunta": "Posso usar carta de correção em conhecimento de transporte?", "esperado": ["RICMS-SC, Anexo 5, art. 121-B"]}
+{"categoria": "RICMS", "pergunta": "Quem fiscaliza o diferencial de alíquotas em venda para consumidor final não contribuinte de outro estado?", "esperado": ["RICMS-SC, art. 78-A"]}
+{"categoria": "RICMS", "pergunta": "Qual a base de cálculo do ICMS numa prestação de serviço sem preço determinado?", "esperado": ["RICMS-SC, art. 13"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de café torrado não descafeinado?", "esperado": ["NCM 0901.21.00"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de água mineral sem açúcar?", "esperado": ["NCM 2201.10.00"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de cerveja de malte?", "esperado": ["NCM 2203.00.00"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de smartphone?", "esperado": ["NCM 8517.13.00"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM do leite longa vida UHT?", "esperado": ["NCM 0401.20.10"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de queijo mussarela?", "esperado": ["NCM 0406.10.10"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de erva-mate cancheada?", "esperado": ["NCM 0903.00.10"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de feijão preto?", "esperado": ["NCM 0713.33"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de xampu?", "esperado": ["NCM 3305.10.00"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de carne bovina desossada resfriada?", "esperado": ["NCM 0201.30.00"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de arroz branco polido não parboilizado?", "esperado": ["NCM 1006.30.21"]}
+{"categoria": "NCM", "pergunta": "Qual o NCM de biscoito doce?", "esperado": ["NCM 1905.31.00"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP uso para vender mercadoria comprada de terceiros dentro do estado?", "esperado": ["CFOP 5.102"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP para venda a consumidor final não contribuinte em outro estado?", "esperado": ["CFOP 6.108"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP para mandar mercadoria para conserto?", "esperado": ["CFOP 5.915", "CFOP 6.915"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP de venda de mercadoria com substituição tributária sendo contribuinte substituído?", "esperado": ["CFOP 5.405"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP para registrar a devolução de uma venda que fiz dentro do estado?", "esperado": ["CFOP 1.202"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP para exportar produção própria?", "esperado": ["CFOP 7.101"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP para remessa em bonificação ou brinde?", "esperado": ["CFOP 5.910", "CFOP 6.910"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP de transferência de mercadoria entre filiais no mesmo estado?", "esperado": ["CFOP 5.152"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP para remessa de amostra grátis?", "esperado": ["CFOP 5.911", "CFOP 6.911"]}
+{"categoria": "CFOP", "pergunta": "Qual CFOP de compra para revenda vinda de outro estado?", "esperado": ["CFOP 2.102"]}

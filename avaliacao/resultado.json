@@ -1,0 +1,1695 @@
+{
+ "resumo": [
+  {
+   "modo": "vetorial",
+   "categoria": "CFOP",
+   "n": 10,
+   "acerto1": 0.3,
+   "acerto5": 0.3,
+   "mrr": 0.3
+  },
+  {
+   "modo": "vetorial",
+   "categoria": "NCM",
+   "n": 12,
+   "acerto1": 0.16666666666666666,
+   "acerto5": 0.4166666666666667,
+   "mrr": 0.28273809523809523
+  },
+  {
+   "modo": "vetorial",
+   "categoria": "RICMS",
+   "n": 18,
+   "acerto1": 0.16666666666666666,
+   "acerto5": 0.3333333333333333,
+   "mrr": 0.24589947089947092
+  },
+  {
+   "modo": "vetorial",
+   "categoria": "TOTAL",
+   "n": 40,
+   "acerto1": 0.2,
+   "acerto5": 0.35,
+   "mrr": 0.2704761904761905
+  },
+  {
+   "modo": "textual",
+   "categoria": "CFOP",
+   "n": 10,
+   "acerto1": 0.3,
+   "acerto5": 0.5,
+   "mrr": 0.39583333333333337
+  },
+  {
+   "modo": "textual",
+   "categoria": "NCM",
+   "n": 12,
+   "acerto1": 0.25,
+   "acerto5": 0.75,
+   "mrr": 0.43472222222222223
+  },
+  {
+   "modo": "textual",
+   "categoria": "RICMS",
+   "n": 18,
+   "acerto1": 0.2777777777777778,
+   "acerto5": 0.5,
+   "mrr": 0.3851851851851852
+  },
+  {
+   "modo": "textual",
+   "categoria": "TOTAL",
+   "n": 40,
+   "acerto1": 0.275,
+   "acerto5": 0.575,
+   "mrr": 0.40270833333333333
+  },
+  {
+   "modo": "hibrida",
+   "categoria": "CFOP",
+   "n": 10,
+   "acerto1": 0.4,
+   "acerto5": 0.4,
+   "mrr": 0.42666666666666664
+  },
+  {
+   "modo": "hibrida",
+   "categoria": "NCM",
+   "n": 12,
+   "acerto1": 0.5,
+   "acerto5": 0.8333333333333334,
+   "mrr": 0.6597222222222222
+  },
+  {
+   "modo": "hibrida",
+   "categoria": "RICMS",
+   "n": 18,
+   "acerto1": 0.4444444444444444,
+   "acerto5": 0.8333333333333334,
+   "mrr": 0.6018518518518519
+  },
+  {
+   "modo": "hibrida",
+   "categoria": "TOTAL",
+   "n": 40,
+   "acerto1": 0.45,
+   "acerto5": 0.725,
+   "mrr": 0.5754166666666667
+  },
+  {
+   "modo": "hibrida+rerank",
+   "categoria": "CFOP",
+   "n": 10,
+   "acerto1": 0.5,
+   "acerto5": 0.7,
+   "mrr": 0.5833333333333333
+  },
+  {
+   "modo": "hibrida+rerank",
+   "categoria": "NCM",
+   "n": 12,
+   "acerto1": 0.4166666666666667,
+   "acerto5": 0.8333333333333334,
+   "mrr": 0.6041666666666666
+  },
+  {
+   "modo": "hibrida+rerank",
+   "categoria": "RICMS",
+   "n": 18,
+   "acerto1": 0.6111111111111112,
+   "acerto5": 0.8333333333333334,
+   "mrr": 0.712962962962963
+  },
+  {
+   "modo": "hibrida+rerank",
+   "categoria": "TOTAL",
+   "n": 40,
+   "acerto1": 0.525,
+   "acerto5": 0.8,
+   "mrr": 0.6479166666666667
+  }
+ ],
+ "detalhes": [
+  {
+   "pergunta": "Qual a alíquota interna geral do ICMS em Santa Catarina?",
+   "esperado": [
+    "RICMS-SC, art. 26"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, art. 27 (parte 1/4)",
+     "RICMS-SC, Anexo 2, art. 238",
+     "RICMS-SC, Anexo 2, art. 191 (parte 3/4)"
+    ]
+   },
+   "textual": {
+    "posicao": 10,
+    "top3": [
+     "RICMS-SC, art. 107",
+     "RICMS-SC, Anexo 3, art. 49 (parte 12/22)",
+     "RICMS-SC, art. 12 (parte 2/4)"
+    ]
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 191 (parte 3/4)",
+     "RICMS-SC, Anexo 2, art. 191 (parte 2/4)",
+     "RICMS-SC, Anexo 2, art. 191 (parte 1/4)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 8º (parte 5/10)",
+     "RICMS-SC, Anexo 2, art. 9º (parte 1/3)",
+     "RICMS-SC, art. 107"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual a alíquota do ICMS em vendas interestaduais para São Paulo ou Paraná?",
+   "esperado": [
+    "RICMS-SC, art. 27"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 27 (parte 1/4)",
+     "RICMS-SC, Anexo 2, art. 21 (parte 4/41)",
+     "RICMS-SC, Anexo 6, art. 186"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 103 (parte 2/13)",
+     "RICMS-SC, Anexo 3, art. 49 (parte 12/22)",
+     "RICMS-SC, Anexo 2, art. 21 (parte 3/41)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 27 (parte 1/4)",
+     "RICMS-SC, Anexo 2, art. 103 (parte 2/13)",
+     "RICMS-SC, Anexo 2, art. 21 (parte 4/41)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 27 (parte 1/4)",
+     "RICMS-SC, Anexo 2, art. 8º (parte 5/10)",
+     "RICMS-SC, Anexo 2, art. 9º (parte 1/3)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Em quais operações o ICMS não incide, como livros e jornais?",
+   "esperado": [
+    "RICMS-SC, art. 6º"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 8472.90.51",
+     "NCM 8472.90.59",
+     "NCM 8472.90.10"
+    ]
+   },
+   "textual": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 358",
+     "RICMS-SC, art. 6º (parte 1/3)",
+     "RICMS-SC, art. 9º (parte 5/5)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 4,
+    "top3": [
+     "NCM 8472.90.51",
+     "RICMS-SC, Anexo 6, art. 358",
+     "NCM 8472.90.59"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 6º (parte 1/3)",
+     "RICMS-SC, Anexo 6, art. 358",
+     "RICMS-SC, Anexo 6, art. 316 (parte 1/3)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Até que dia devo recolher o ICMS depois que termina o período de apuração?",
+   "esperado": [
+    "RICMS-SC, art. 60"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 8,
+    "top3": [
+     "RICMS-SC, art. 91",
+     "RICMS-SC, Anexo 3, art. 26-B",
+     "RICMS-SC, Anexo 11, art. 37 (parte 3/4)"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 60 (parte 14/20)",
+     "RICMS-SC, art. 106-B (parte 1/4)",
+     "RICMS-SC, art. 106-C (parte 1/4)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 60 (parte 5/20)",
+     "RICMS-SC, art. 91",
+     "RICMS-SC, Anexo 3, art. 26-B"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, art. 91",
+     "RICMS-SC, art. 60 (parte 1/20)",
+     "RICMS-SC, Anexo 3, art. 26-B"
+    ]
+   }
+  },
+  {
+   "pergunta": "A venda de leite fresco ao consumidor final é isenta de ICMS?",
+   "esperado": [
+    "RICMS-SC, Anexo 2, art. 1º"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 3003.90.24",
+     "NCM 3004.90.25",
+     "NCM 3004.90.14"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 1º (parte 1/28)",
+     "RICMS-SC, Anexo 2, art. 15 (parte 11/81)",
+     "RICMS-SC, Anexo 2, art. 15 (parte 12/81)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 2,
+    "top3": [
+     "NCM 3003.90.24",
+     "RICMS-SC, Anexo 2, art. 1º (parte 1/28)",
+     "NCM 3004.90.25"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 1º (parte 1/28)",
+     "CFOP 5.667",
+     "RICMS-SC, Anexo 3, art. 49 (parte 22/22)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Mandar mercadoria para conserto tem suspensão do ICMS? Qual o prazo para voltar?",
+   "esperado": [
+    "RICMS-SC, Anexo 2, art. 27"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 8,
+    "top3": [
+     "RICMS-SC, art. 60 (parte 5/20)",
+     "RICMS-SC, Anexo 2, art. 2º (parte 4/49)",
+     "RICMS-SC, Anexo 6, art. 77-E"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 192 (parte 10/11)",
+     "RICMS-SC, art. 8º (parte 2/5)",
+     "RICMS-SC, Anexo 2, art. 268 (parte 1/2)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 3,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 192 (parte 10/11)",
+     "RICMS-SC, Anexo 6, art. 198 (parte 1/2)",
+     "RICMS-SC, Anexo 2, art. 27 (parte 1/2)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 27 (parte 1/2)",
+     "RICMS-SC, Anexo 2, art. 36",
+     "RICMS-SC, Anexo 6, art. 77-E"
+    ]
+   }
+  },
+  {
+   "pergunta": "Como corrigir um erro na nota fiscal eletrônica depois que ela foi autorizada?",
+   "esperado": [
+    "RICMS-SC, Anexo 11, art. 16"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 144 (parte 2/2)",
+     "RICMS-SC, Anexo 11, art. 23-B (parte 1/5)",
+     "RICMS-SC, Anexo 11, art. 1º (parte 1/3)"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 50 (parte 2/2)",
+     "RICMS-SC, Anexo 11, art. 62 (parte 1/3)",
+     "RICMS-SC, Anexo 11, art. 129 (parte 2/2)"
+    ]
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 50 (parte 2/2)",
+     "RICMS-SC, Anexo 11, art. 129 (parte 2/2)",
+     "RICMS-SC, Anexo 11, art. 70"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 144 (parte 2/2)",
+     "RICMS-SC, Anexo 11, art. 50 (parte 2/2)",
+     "RICMS-SC, Anexo 11, art. 23-B (parte 1/5)"
+    ]
+   }
+  },
+  {
+   "pergunta": "O que fazer quando não consigo transmitir a NF-e por problema técnico na SEFAZ?",
+   "esperado": [
+    "RICMS-SC, Anexo 11, art. 11"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 7,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 141 (parte 1/4)",
+     "RICMS-SC, Anexo 11, art. 157 (parte 1/4)",
+     "RICMS-SC, Anexo 11, art. 213 (parte 1/2)"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 11 (parte 1/7)",
+     "RICMS-SC, Anexo 11, art. 46 (parte 1/7)",
+     "RICMS-SC, Anexo 11, art. 79 (parte 1/3)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 213 (parte 1/2)",
+     "RICMS-SC, Anexo 11, art. 11 (parte 1/7)",
+     "RICMS-SC, Anexo 11, art. 79 (parte 1/3)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 11 (parte 1/7)",
+     "RICMS-SC, Anexo 11, art. 157 (parte 1/4)",
+     "RICMS-SC, Anexo 11, art. 11 (parte 4/7)"
+    ]
+   }
+  },
+  {
+   "pergunta": "O que é o DANFE e para que serve?",
+   "esperado": [
+    "RICMS-SC, Anexo 11, art. 9º"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 8421.23.00",
+     "NCM 8437.10.00",
+     "NCM 8437.80.90"
+    ]
+   },
+   "textual": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 103 (parte 3/3)",
+     "RICMS-SC, Anexo 11, art. 9º (parte 3/6)",
+     "RICMS-SC, Anexo 11, art. 103 (parte 1/3)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 4,
+    "top3": [
+     "NCM 8421.23.00",
+     "RICMS-SC, Anexo 11, art. 103 (parte 3/3)",
+     "NCM 8437.10.00"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 9º (parte 1/6)",
+     "RICMS-SC, Anexo 2, art. 280 (parte 2/2)",
+     "RICMS-SC, Anexo 2, art. 44 (parte 1/2)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Como cancelar uma NF-e já autorizada?",
+   "esperado": [
+    "RICMS-SC, Anexo 11, art. 13",
+    "RICMS-SC, Anexo 11, art. 14"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 12",
+     "RICMS-SC, Anexo 11, art. 13",
+     "RICMS-SC, Anexo 11, art. 158"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 80 (parte 1/2)",
+     "RICMS-SC, Anexo 11, art. 126 (parte 1/3)",
+     "RICMS-SC, Anexo 11, art. 206 (parte 2/4)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 80 (parte 1/2)",
+     "RICMS-SC, Anexo 11, art. 14 (parte 1/2)",
+     "RICMS-SC, Anexo 11, art. 106 (parte 1/2)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 13",
+     "RICMS-SC, Anexo 11, art. 12",
+     "RICMS-SC, Anexo 11, art. 14 (parte 1/2)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Quem pode ser autorizado a emitir nota fiscal eletrônica em Santa Catarina?",
+   "esperado": [
+    "RICMS-SC, Anexo 11, art. 2º"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 3,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 249",
+     "RICMS-SC, art. 104-C (parte 2/2)",
+     "RICMS-SC, Anexo 11, art. 2º (parte 1/4)"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 193 (parte 1/2)",
+     "RICMS-SC, Anexo 11, art. 62 (parte 1/3)",
+     "RICMS-SC, Anexo 11, art. 50-A (parte 2/3)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 2º (parte 1/4)",
+     "RICMS-SC, Anexo 6, art. 249",
+     "RICMS-SC, Anexo 11, art. 193 (parte 1/2)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 2º (parte 1/4)",
+     "RICMS-SC, Anexo 11, art. 62 (parte 1/3)",
+     "RICMS-SC, Anexo 11, art. 140 (parte 1/2)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Na industrialização por encomenda, como fica a nota de remessa da matéria-prima para o industrializador?",
+   "esperado": [
+    "RICMS-SC, Anexo 6, art. 71"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.901",
+     "CFOP 5.902",
+     "CFOP 6.902"
+    ]
+   },
+   "textual": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 209",
+     "RICMS-SC, Anexo 6, art. 71 (parte 2/7)",
+     "RICMS-SC, Anexo 6, art. 73 (parte 1/2)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 71 (parte 2/7)",
+     "CFOP 5.902",
+     "RICMS-SC, Anexo 6, art. 71 (parte 4/7)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 3,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 208",
+     "RICMS-SC, Anexo 2, art. 209",
+     "RICMS-SC, Anexo 6, art. 71 (parte 4/7)"
+    ]
+   }
+  },
+  {
+   "pergunta": "O que são créditos acumulados de ICMS?",
+   "esperado": [
+    "RICMS-SC, art. 40"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.601",
+     "CFOP 1.601",
+     "RICMS-SC, Anexo 5, art. 166"
+    ]
+   },
+   "textual": {
+    "posicao": 3,
+    "top3": [
+     "RICMS-SC, art. 48 (parte 1/2)",
+     "RICMS-SC, art. 46 (parte 1/3)",
+     "RICMS-SC, art. 40 (parte 1/8)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 40 (parte 1/8)",
+     "RICMS-SC, art. 50",
+     "RICMS-SC, art. 46 (parte 2/3)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "CFOP 5.601",
+     "RICMS-SC, art. 40 (parte 1/8)",
+     "RICMS-SC, art. 46 (parte 3/3)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Em que momento ocorre o fato gerador do ICMS?",
+   "esperado": [
+    "RICMS-SC, art. 3º",
+    "RICMS-SC, art. 1º"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 5, art. 174",
+     "RICMS-SC, Anexo 3, art. 26-B",
+     "RICMS-SC, Anexo 6, art. 39 (parte 1/2)"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 3º (parte 4/7)",
+     "RICMS-SC, art. 98 (parte 2/2)",
+     "RICMS-SC, art. 3º (parte 1/7)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 5, art. 174",
+     "RICMS-SC, art. 3º (parte 4/7)",
+     "RICMS-SC, Anexo 3, art. 26-B"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 3º (parte 1/7)",
+     "RICMS-SC, art. 3º (parte 4/7)",
+     "RICMS-SC, art. 3º (parte 5/7)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Armazém geral é responsável pelo pagamento do ICMS das mercadorias depositadas?",
+   "esperado": [
+    "RICMS-SC, art. 8º"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 8º (parte 1/5)",
+     "RICMS-SC, Anexo 3, art. 17 (parte 2/11)",
+     "RICMS-SC, art. 77 (parte 2/2)"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 60 (parte 2/3)",
+     "RICMS-SC, Anexo 2, art. 268 (parte 1/2)",
+     "RICMS-SC, Anexo 6, art. 62 (parte 2/4)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 8º (parte 1/5)",
+     "RICMS-SC, Anexo 6, art. 68 (parte 2/4)",
+     "RICMS-SC, Anexo 6, art. 70 (parte 2/6)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 272",
+     "RICMS-SC, art. 8º (parte 1/5)",
+     "RICMS-SC, Anexo 6, art. 60 (parte 1/3)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Posso usar carta de correção em conhecimento de transporte?",
+   "esperado": [
+    "RICMS-SC, Anexo 5, art. 121-B"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 101",
+     "RICMS-SC, Anexo 11, art. 114 (parte 1/3)",
+     "RICMS-SC, Anexo 5, art. 99"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 11, art. 34 (parte 1/4)",
+     "RICMS-SC, Anexo 5, art. 66 (parte 1/2)",
+     "RICMS-SC, Anexo 5, art. 68 (parte 1/3)"
+    ]
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 5, art. 66 (parte 1/2)",
+     "RICMS-SC, Anexo 5, art. 123 (parte 1/2)",
+     "RICMS-SC, Anexo 5, art. 86-C"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 6, art. 139",
+     "RICMS-SC, Anexo 11, art. 34 (parte 1/4)",
+     "RICMS-SC, Anexo 5, art. 69"
+    ]
+   }
+  },
+  {
+   "pergunta": "Quem fiscaliza o diferencial de alíquotas em venda para consumidor final não contribuinte de outro estado?",
+   "esperado": [
+    "RICMS-SC, art. 78-A"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 78-A",
+     "RICMS-SC, Anexo 6, art. 447",
+     "RICMS-SC, Anexo 3, art. 19 (parte 1/9)"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 78-A",
+     "RICMS-SC, art. 3º (parte 3/7)",
+     "RICMS-SC, Anexo 6, art. 343 (parte 4/6)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 78-A",
+     "RICMS-SC, Anexo 3, art. 20 (parte 2/6)",
+     "RICMS-SC, art. 108"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 78-A",
+     "RICMS-SC, Anexo 3, art. 18 (parte 1/2)",
+     "RICMS-SC, art. 108"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual a base de cálculo do ICMS numa prestação de serviço sem preço determinado?",
+   "esperado": [
+    "RICMS-SC, art. 13"
+   ],
+   "categoria": "RICMS",
+   "vetorial": {
+    "posicao": 5,
+    "top3": [
+     "RICMS-SC, Anexo 2, art. 14 (parte 2/2)",
+     "CFOP 1.126",
+     "CFOP 2.126"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "RICMS-SC, Anexo 5, art. 121-A (parte 1/2)",
+     "RICMS-SC, Anexo 5, art. 62-B (parte 1/3)",
+     "RICMS-SC, Anexo 5, art. 126 (parte 1/3)"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 13",
+     "RICMS-SC, art. 12 (parte 1/4)",
+     "RICMS-SC, art. 12 (parte 3/4)"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "RICMS-SC, art. 13",
+     "RICMS-SC, art. 12 (parte 4/4)",
+     "RICMS-SC, art. 12 (parte 2/4)"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de café torrado não descafeinado?",
+   "esperado": [
+    "NCM 0901.21.00"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": 2,
+    "top3": [
+     "NCM 0901.90.00",
+     "NCM 0901.21.00",
+     "NCM 0901.12.00"
+    ]
+   },
+   "textual": {
+    "posicao": 4,
+    "top3": [
+     "NCM 0901.11.10",
+     "NCM 0901.11.90",
+     "NCM 0901.12.00"
+    ]
+   },
+   "hibrida": {
+    "posicao": 2,
+    "top3": [
+     "NCM 0901.11.10",
+     "NCM 0901.21.00",
+     "NCM 0901.12.00"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "NCM 0901.11.10",
+     "NCM 0901.21.00",
+     "NCM 0901.11.90"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de água mineral sem açúcar?",
+   "esperado": [
+    "NCM 2201.10.00"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "NCM 2201.10.00",
+     "NCM 2201.90.00",
+     "NCM 2202.10.00"
+    ]
+   },
+   "textual": {
+    "posicao": 3,
+    "top3": [
+     "NCM 2202.10.00",
+     "NCM 1702.90.00",
+     "NCM 2201.10.00"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "NCM 2201.10.00",
+     "NCM 2202.10.00",
+     "NCM 2201.90.00"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "NCM 2201.90.00",
+     "NCM 2201.10.00",
+     "NCM 2202.91.00"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de cerveja de malte?",
+   "esperado": [
+    "NCM 2203.00.00"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "NCM 2203.00.00",
+     "NCM 2208.50.00",
+     "NCM 2208.30.90"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "NCM 1901.90.10",
+     "NCM 1107.10.10",
+     "NCM 1107.10.20"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "NCM 2203.00.00",
+     "NCM 2202.91.00",
+     "NCM 3807.00.00"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "NCM 2203.00.00",
+     "NCM 1107.10.10",
+     "NCM 1107.20.10"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de smartphone?",
+   "esperado": [
+    "NCM 8517.13.00"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 8517.69.00",
+     "NCM 8517.79.00",
+     "NCM 8517.11.00"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "NCM 8517.13.00",
+     "NCM 8517.11.00",
+     "NCM 8517.14.10"
+    ]
+   },
+   "hibrida": {
+    "posicao": 2,
+    "top3": [
+     "NCM 8517.11.00",
+     "NCM 8517.13.00",
+     "NCM 8517.18.90"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "NCM 8517.14.39",
+     "NCM 8517.62.52",
+     "NCM 8517.61.42"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM do leite longa vida UHT?",
+   "esperado": [
+    "NCM 0401.20.10"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 3822.19.20",
+     "NCM 3005.90.12",
+     "NCM 3004.50.10"
+    ]
+   },
+   "textual": {
+    "posicao": 2,
+    "top3": [
+     "NCM 0401.10.10",
+     "NCM 0401.20.10",
+     "NCM 0401.40.21"
+    ]
+   },
+   "hibrida": {
+    "posicao": 4,
+    "top3": [
+     "NCM 3822.19.20",
+     "NCM 0401.10.10",
+     "NCM 3005.90.12"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "NCM 0401.10.10",
+     "NCM 0401.20.10",
+     "NCM 0401.50.21"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de queijo mussarela?",
+   "esperado": [
+    "NCM 0406.10.10"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": 4,
+    "top3": [
+     "NCM 1803.10.00",
+     "NCM 1801.00.00",
+     "NCM 1803.20.00"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0406.10.10",
+     "NCM 0406.10.90",
+     "NCM 0406.40.00"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0406.10.10",
+     "NCM 0406.40.00",
+     "NCM 0406.10.90"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0406.10.10",
+     "NCM 0406.90.20",
+     "NCM 0406.90.10"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de erva-mate cancheada?",
+   "esperado": [
+    "NCM 0903.00.10"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 4013.90.00",
+     "NCM 5203.00.00",
+     "NCM 7802.00.00"
+    ]
+   },
+   "textual": {
+    "posicao": 5,
+    "top3": [
+     "NCM 2101.20.20",
+     "NCM 0909.61.10",
+     "NCM 0909.62.10"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0903.00.10",
+     "NCM 4013.90.00",
+     "NCM 2101.20.20"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0903.00.10",
+     "NCM 0909.61.10",
+     "NCM 0909.21.00"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de feijão preto?",
+   "esperado": [
+    "NCM 0713.33"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 0909.61.10",
+     "NCM 0909.62.10",
+     "NCM 1801.00.00"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0713.33.11",
+     "NCM 0713.33.19",
+     "NCM 0713.32.10"
+    ]
+   },
+   "hibrida": {
+    "posicao": 2,
+    "top3": [
+     "NCM 0909.61.10",
+     "NCM 0713.33.11",
+     "NCM 0909.62.10"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0713.33.11",
+     "NCM 0713.33.19",
+     "NCM 0713.33.21"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de xampu?",
+   "esperado": [
+    "NCM 3305.10.00"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 4013.90.00",
+     "NCM 3407.00.90",
+     "NCM 3407.00.20"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": []
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "NCM 4013.90.00",
+     "NCM 3407.00.90",
+     "NCM 3407.00.20"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "NCM 3407.00.90",
+     "NCM 3403.19.00",
+     "NCM 3401.19.00"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de carne bovina desossada resfriada?",
+   "esperado": [
+    "NCM 0201.30.00"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": 2,
+    "top3": [
+     "NCM 0202.30.00",
+     "NCM 0201.30.00",
+     "NCM 0205.00.00"
+    ]
+   },
+   "textual": {
+    "posicao": 10,
+    "top3": [
+     "NCM 0210.11.00",
+     "NCM 0210.20.00",
+     "NCM 0210.99.11"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0201.30.00",
+     "NCM 0202.30.00",
+     "NCM 0202.20.10"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "NCM 0201.30.00",
+     "NCM 0202.30.00",
+     "NCM 0204.43.00"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de arroz branco polido não parboilizado?",
+   "esperado": [
+    "NCM 1006.30.21"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "NCM 1006.20.20",
+     "NCM 1006.40.00",
+     "NCM 1006.10.92"
+    ]
+   },
+   "textual": {
+    "posicao": 2,
+    "top3": [
+     "NCM 1006.30.11",
+     "NCM 1006.30.21",
+     "NCM 8483.50.10"
+    ]
+   },
+   "hibrida": {
+    "posicao": 6,
+    "top3": [
+     "NCM 1006.20.20",
+     "NCM 1006.10.92",
+     "NCM 1006.20.10"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "NCM 1006.30.29",
+     "NCM 1006.30.21",
+     "NCM 1006.20.20"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual o NCM de biscoito doce?",
+   "esperado": [
+    "NCM 1905.31.00"
+   ],
+   "categoria": "NCM",
+   "vetorial": {
+    "posicao": 7,
+    "top3": [
+     "NCM 1805.00.00",
+     "NCM 1704.10.00",
+     "NCM 1806.10.00"
+    ]
+   },
+   "textual": {
+    "posicao": 3,
+    "top3": [
+     "NCM 0909.61.10",
+     "NCM 0909.62.10",
+     "NCM 1905.31.00"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "NCM 1905.31.00",
+     "NCM 1905.90.20",
+     "NCM 1905.32.00"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 4,
+    "top3": [
+     "NCM 1905.90.20",
+     "NCM 1905.90.10",
+     "NCM 1905.90.90"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP uso para vender mercadoria comprada de terceiros dentro do estado?",
+   "esperado": [
+    "CFOP 5.102"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.104",
+     "CFOP 6.104",
+     "CFOP 5.119"
+    ]
+   },
+   "textual": {
+    "posicao": 3,
+    "top3": [
+     "CFOP 1.202",
+     "CFOP 2.202",
+     "CFOP 5.102"
+    ]
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.119",
+     "CFOP 5.106",
+     "CFOP 5.117"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.119",
+     "CFOP 5.115",
+     "CFOP 5.117"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP para venda a consumidor final não contribuinte em outro estado?",
+   "esperado": [
+    "CFOP 6.108"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 6.108",
+     "CFOP 1.414",
+     "CFOP 1.415"
+    ]
+   },
+   "textual": {
+    "posicao": 8,
+    "top3": [
+     "CFOP 3.949",
+     "CFOP 6.923",
+     "CFOP 7.949"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 6.108",
+     "CFOP 6.107",
+     "CFOP 6.106"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 2,
+    "top3": [
+     "CFOP 6.107",
+     "CFOP 6.108",
+     "CFOP 6.667"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP para mandar mercadoria para conserto?",
+   "esperado": [
+    "CFOP 5.915",
+    "CFOP 6.915"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.923",
+     "CFOP 6.923",
+     "CFOP 1.923"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "CFOP 1.202",
+     "CFOP 2.202",
+     "CFOP 5.503"
+    ]
+   },
+   "hibrida": {
+    "posicao": 6,
+    "top3": [
+     "CFOP 5.923",
+     "CFOP 6.923",
+     "CFOP 1.506"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 6.915",
+     "CFOP 5.915",
+     "CFOP 5.912"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP de venda de mercadoria com substituição tributária sendo contribuinte substituído?",
+   "esperado": [
+    "CFOP 5.405"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 6.404",
+     "CFOP 1.407",
+     "CFOP 2.407"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.405",
+     "CFOP 1.411",
+     "CFOP 2.411"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.405",
+     "CFOP 1.403",
+     "CFOP 1.407"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.405",
+     "CFOP 5.403",
+     "CFOP 6.403"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP para registrar a devolução de uma venda que fiz dentro do estado?",
+   "esperado": [
+    "CFOP 1.202"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 1.922",
+     "CFOP 5.922",
+     "CFOP 6.922"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 1.202",
+     "CFOP 2.202",
+     "CFOP 1.904"
+    ]
+   },
+   "hibrida": {
+    "posicao": 10,
+    "top3": [
+     "CFOP 1.201",
+     "CFOP 1.553",
+     "CFOP 1.209"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "CFOP 1.411",
+     "CFOP 1.201",
+     "CFOP 1.212"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP para exportar produção própria?",
+   "esperado": [
+    "CFOP 7.101"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 7.550",
+     "CFOP 6.501",
+     "CFOP 5.501"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "CFOP 3.503",
+     "CFOP 5.503",
+     "CFOP 6.503"
+    ]
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "CFOP 3.503",
+     "CFOP 7.501",
+     "CFOP 2.503"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 7.101",
+     "CFOP 6.501",
+     "CFOP 7.105"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP para remessa em bonificação ou brinde?",
+   "esperado": [
+    "CFOP 5.910",
+    "CFOP 6.910"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.910",
+     "CFOP 6.910",
+     "CFOP 5.913"
+    ]
+   },
+   "textual": {
+    "posicao": 2,
+    "top3": [
+     "CFOP 5.904",
+     "CFOP 5.910",
+     "CFOP 6.904"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.910",
+     "CFOP 6.910",
+     "CFOP 1.910"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.910",
+     "CFOP 6.910",
+     "CFOP 2.910"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP de transferência de mercadoria entre filiais no mesmo estado?",
+   "esperado": [
+    "CFOP 5.152"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 1.152",
+     "CFOP 5.155",
+     "CFOP 2.152"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "CFOP 3.949",
+     "CFOP 1.202",
+     "CFOP 2.202"
+    ]
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "CFOP 1.409",
+     "CFOP 5.409",
+     "CFOP 6.409"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.156",
+     "CFOP 5.409",
+     "CFOP 1.152"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP para remessa de amostra grátis?",
+   "esperado": [
+    "CFOP 5.911",
+    "CFOP 6.911"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.911",
+     "CFOP 5.910",
+     "CFOP 5.912"
+    ]
+   },
+   "textual": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 6.911",
+     "CFOP 5.904",
+     "CFOP 5.911"
+    ]
+   },
+   "hibrida": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.911",
+     "CFOP 5.904",
+     "CFOP 5.910"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 1,
+    "top3": [
+     "CFOP 5.911",
+     "CFOP 6.911",
+     "CFOP 1.911"
+    ]
+   }
+  },
+  {
+   "pergunta": "Qual CFOP de compra para revenda vinda de outro estado?",
+   "esperado": [
+    "CFOP 2.102"
+   ],
+   "categoria": "CFOP",
+   "vetorial": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.103",
+     "CFOP 2.921",
+     "CFOP 1.650"
+    ]
+   },
+   "textual": {
+    "posicao": null,
+    "top3": [
+     "CFOP 3.949",
+     "CFOP 7.949",
+     "CFOP 2.125"
+    ]
+   },
+   "hibrida": {
+    "posicao": null,
+    "top3": [
+     "CFOP 5.103",
+     "CFOP 3.949",
+     "CFOP 2.921"
+    ]
+   },
+   "hibrida+rerank": {
+    "posicao": 3,
+    "top3": [
+     "CFOP 2.923",
+     "CFOP 2.121",
+     "CFOP 2.102"
+    ]
+   }
+  }
+ ]
+}

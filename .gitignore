@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+dados/brutos/
+
+# Local agent/tooling state
+.claude/settings.local.json
+.claude-flow/
+.swarm/
